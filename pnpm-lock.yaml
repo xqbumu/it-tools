@@ -117,8 +117,8 @@ dependencies:
     specifier: ^2.1.35
     version: 2.1.35
   monaco-editor:
-    specifier: ^0.43.0
-    version: 0.43.0
+    specifier: ^0.49.0
+    version: 0.49.0
   naive-ui:
     specifier: ^2.35.0
     version: 2.35.0(vue@3.3.4)
@@ -3354,7 +3354,7 @@ packages:
     dependencies:
       '@unhead/dom': 0.5.1
       '@unhead/schema': 0.5.1
-      '@vueuse/shared': 10.8.0(vue@3.3.4)
+      '@vueuse/shared': 10.9.0(vue@3.3.4)
       unhead: 0.5.1
       vue: 3.3.4
     transitivePeerDependencies:
@@ -3996,8 +3996,8 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/shared@10.8.0(vue@3.3.4):
-    resolution: {integrity: sha512-dUdy6zwHhULGxmr9YUg8e+EnB39gcM4Fe2oKBSrh3cOsV30JcMPtsyuspgFCUo5xxFNaeMf/W2yyKfST7Bg8oQ==}
+  /@vueuse/shared@10.9.0(vue@3.3.4):
+    resolution: {integrity: sha512-Uud2IWncmAfJvRaFYzv5OHDli+FbOzxiVEQdLCKQKLyhz94PIyFC3CHcH7EDMwIn8NPtD06+PNbC/PiO0LGLtw==}
     dependencies:
       vue-demi: 0.14.7(vue@3.3.4)
     transitivePeerDependencies:
@@ -6950,8 +6950,8 @@ packages:
       pkg-types: 1.0.3
       ufo: 1.3.1
 
-  /monaco-editor@0.43.0:
-    resolution: {integrity: sha512-cnoqwQi/9fml2Szamv1XbSJieGJ1Dc8tENVMD26Kcfl7xGQWp7OBKMjlwKVGYFJ3/AXJjSOGvcqK7Ry/j9BM1Q==}
+  /monaco-editor@0.49.0:
+    resolution: {integrity: sha512-2I8/T3X/hLxB2oPHgqcNYUVdA/ZEFShT7IAujifIPMfKkNbLOqY8XCoyHCXrsdjb36dW9MwoTwBCFpXKMwNwaQ==}
     dev: false
 
   /moo@0.5.2:
@@ -9449,6 +9449,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
