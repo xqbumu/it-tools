@@ -35,6 +35,7 @@
     "release": "node ./scripts/release.mjs"
   },
   "dependencies": {
+    "@ailnaf/xlsx2csv": "^1.3.8",
     "@it-tools/bip39": "^0.0.4",
     "@it-tools/oggen": "^1.3.0",
     "@sindresorhus/slugify": "^2.2.1",
@@ -67,6 +68,7 @@
     "iarna-toml-esm": "^3.0.5",
     "ibantools": "^4.3.3",
     "js-base64": "^3.7.6",
+    "json-2-csv": "^5.5.1",
     "json5": "^2.2.3",
     "jwt-decode": "^3.1.2",
     "libphonenumber-js": "^1.10.28",

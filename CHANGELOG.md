@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 2024.05.28-b430bae
+
+### Features
+- **base64**: Base64 enhancements (#905) (30144aa)
+
+### Bug fixes
+- **format-transformer**: set overflow for output area width (#787) (b430bae)
+- **jwt-parser**: prevent UI overflow on small screen (#1095) (dd4b7e6)
+
 ## Version 2024.05.13-a0bc346
 
 ### Features
