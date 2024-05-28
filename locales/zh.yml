@@ -388,6 +388,6 @@ tools:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
 
-  csv-to-json:
-    title: CSV 转 JSON
-    description: 使用自动标头检测将CSV转换为JSON。
+  tpl-csv-json:
+    title: CSV、XlSX 与 JSON 转换
+    description: 一款用于转换翻译文件的小工具。

@@ -392,6 +392,6 @@ tools:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
 
-  csv-to-json:
-    title: CSV to JSON
-    description: Convert CSV to JSON with automatic header detection.
+  tpl-csv-json:
+    title: CSV, XlSX and JSON conversion
+    description: A small tool for converting translation files.
